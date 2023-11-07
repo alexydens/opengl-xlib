@@ -1,5 +1,5 @@
 CFLAGS = -ansi -pedantic -Wall -Wextra -O3 -ffast-math
-LDFLAGS = -Wl,--copy-dt-needed-entries -lABC -lGL -lGLU -lX11
+LDFLAGS = -Wl,--copy-dt-needed-entries -lABC -lGL -lGLU -lX11 -lSDL2_image
 
 SRC_DIR=src
 BUILD_DIR=build
